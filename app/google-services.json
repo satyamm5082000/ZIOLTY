@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17693532783",
+    "firebase_url": "https://otdapp-c49a7.firebaseio.com",
+    "project_id": "otdapp-c49a7",
+    "storage_bucket": "otdapp-c49a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17693532783:android:775b3845298f0ec0",
+        "android_client_info": {
+          "package_name": "com.example.otdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17693532783-ue4cn020s1b8kftfvcau0tnvcf2uql5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.otdapp",
+            "certificate_hash": "73ee5ffe491accb06093d0cfc05f8ac57cd6a126"
+          }
+        },
+        {
+          "client_id": "17693532783-76t4br7khktm58s8aodvacdnioludbch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0bUhEG8sPvJZYBo5LGR1VUr-PVVsEoNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17693532783-76t4br7khktm58s8aodvacdnioludbch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

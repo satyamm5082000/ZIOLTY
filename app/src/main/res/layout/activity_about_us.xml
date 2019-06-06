@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent"
+        tools:context=".About_us">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40dp"
+            app:cardUseCompatPadding="true">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pro1"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"/>
+
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/satyam"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="PROFILE"
+            android:textColor="@android:color/black"
+            android:background="@drawable/roundedbutton"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40dp"
+            app:cardUseCompatPadding="true">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pro2"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"/>
+        </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/satya"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="PROFILE"
+            android:textColor="@android:color/black"
+            android:background="@drawable/roundedbutton"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40dp"
+            app:cardUseCompatPadding="true">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pro3"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"/>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/rohit"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="PROFILE"
+            android:layout_marginBottom="30dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/roundedbutton"/>
+    </LinearLayout>
+
+</ScrollView>

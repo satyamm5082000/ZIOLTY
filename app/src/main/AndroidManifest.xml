@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.otdapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cartView" android:label="CART VIEW"></activity>
+        <activity android:name=".Grocery"
+            android:label="GROCERY"/>
+        <activity
+            android:name=".Cart"
+            android:label="CART" />
+        <activity
+            android:name=".Canteen"
+            android:label="CANTEEN" />
+        <activity
+            android:name=".Stationary"
+            android:label="STATIONARY" />
+        <activity
+            android:name=".Laundry"
+            android:label="LAUNDRY" />
+        <activity
+            android:name=".myAccount"
+            android:label="MY ACCOUNT" />
+        <activity
+            android:name=".help"
+            android:label="HELP" />
+        <activity
+            android:name=".About_us"
+            android:label="ABOUT US" />
+        <activity
+            android:name=".Notification"
+            android:label="NOTIFICATION" />
+        <activity
+            android:name=".first_main_page"
+            android:label="HOME"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewUser"
+            android:label="NEW USER" />
+        <activity
+            android:name=".HomePage"
+            android:label="ZIOLTY--LOGIN" />
+        <activity
+            android:name=".MainActivity"
+            android:label="ZIOLTY">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<service-->
+            <!--android:name=".java.MyFirebaseMessagingService"-->
+            <!--android:exported="false">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <!--<meta-data-->
+            <!--android:name="com.google.firebase.messaging.default_notification_icon"-->
+            <!--android:resource="@drawable/ic_notifications_active_black_24dp" />-->
+        <!--&lt;!&ndash; Set color used with incoming notification messages. This is used when no color is set for the incoming-->
+             <!--notification message. See README(https://goo.gl/6BKBk7) for more. &ndash;&gt;-->
+        <!--<meta-data-->
+            <!--android:name="com.google.firebase.messaging.default_notification_color"-->
+            <!--android:resource="@color/colorAccent" />-->
+
+        <!--<meta-data-->
+            <!--android:name="com.google.firebase.messaging.default_notification_channel_id"-->
+            <!--android:value="001" />-->
+
+    </application>
+
+</manifest>

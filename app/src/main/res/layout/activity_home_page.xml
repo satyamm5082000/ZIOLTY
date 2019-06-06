@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".HomePage">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/applogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.design.widget.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/email45"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/rounded_border_edit_text"
+        android:singleLine="true"
+        android:textColorHint="@android:color/black"
+        android:layout_margin="10dp"
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minWidth="200sp"
+        android:ems="10"
+        android:singleLine="true"
+        android:background="@drawable/rounded_border_edit_text"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+        android:layout_margin="10dp"
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"
+        android:onClick="displayNotification"
+        android:background = "@drawable/roundedbutton"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+     <TextView
+         android:id="@+id/forget"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" forgot password ? "
+         android:textSize="15sp"
+         android:textColor="@android:color/black"
+         android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/newUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign Up "
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
